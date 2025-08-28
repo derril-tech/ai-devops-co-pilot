@@ -1,0 +1,108 @@
+# Conventional Commits & Documentation
+
+## Commit Conventions
+
+### Commit Message Format
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### Commit Types
+- **feat**: A new feature
+- **fix**: A bug fix
+- **docs**: Documentation only changes
+- **style**: Changes that do not affect the meaning of the code
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **perf**: A code change that improves performance
+- **test**: Adding missing tests or correcting existing tests
+- **build**: Changes that affect the build system or external dependencies
+- **ci**: Changes to our CI configuration files and scripts
+- **chore**: Other changes that don't modify src or test files
+- **revert**: Reverts a previous commit
+
+### Commit Scope
+- Use lowercase
+- Use imperative mood for description
+- Keep descriptions concise but descriptive
+- Reference issue numbers when applicable
+
+### Breaking Changes
+- Include `BREAKING CHANGE:` in footer
+- Describe the breaking change and migration path
+- Update version according to semantic versioning
+
+## Documentation Standards
+
+### Code Documentation
+- Use docstrings for all public functions and classes
+- Document complex algorithms and business logic
+- Include parameter types and return value descriptions
+- Provide usage examples where helpful
+
+### API Documentation
+- Use OpenAPI/Swagger for REST APIs
+- Document all endpoints with examples
+- Include error responses and status codes
+- Maintain up-to-date API documentation
+
+### README Files
+- Include project overview and purpose
+- Provide installation and setup instructions
+- Document usage examples and configuration
+- Include contribution guidelines and code of conduct
+
+### Architecture Documentation
+- Maintain architecture decision records (ADRs)
+- Document system components and interactions
+- Include data flow diagrams and sequence diagrams
+- Update documentation when architecture changes
+
+### User Documentation
+- Create user guides and tutorials
+- Provide troubleshooting guides
+- Include FAQ sections
+- Maintain changelog for releases
+
+## Version Control Best Practices
+
+### Branching Strategy
+- Use feature branches for new development
+- Implement pull request reviews
+- Use semantic versioning for releases
+- Maintain release branches for hotfixes
+
+### Code Review Process
+- Require at least one approval for PRs
+- Review for code quality and security
+- Test changes before merging
+- Update documentation as needed
+
+### Release Process
+- Use semantic versioning (MAJOR.MINOR.PATCH)
+- Maintain changelog with release notes
+- Tag releases in version control
+- Automate release process where possible
+
+## Documentation Tools
+
+### Static Site Generators
+- Use MkDocs or Sphinx for documentation
+- Implement automated documentation builds
+- Host documentation alongside code
+- Use versioned documentation for releases
+
+### Code Documentation Tools
+- Use TypeDoc for TypeScript projects
+- Use Sphinx or MkDocs for Python projects
+- Generate API documentation automatically
+- Include documentation in CI/CD pipeline
+
+### Diagramming Tools
+- Use PlantUML or Mermaid for diagrams
+- Maintain diagrams in version control
+- Include diagrams in documentation
+- Update diagrams when architecture changes

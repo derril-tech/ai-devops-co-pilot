@@ -1,0 +1,69 @@
+# Python Quality, Packaging, and Typing
+
+## Python Standards
+
+### Code Quality
+- Use PEP 8 style guidelines
+- Maximum line length: 88 characters (Black formatter)
+- Use type hints for all function parameters and return values
+- Implement proper error handling with custom exceptions
+- Follow DRY principle and avoid code duplication
+
+### Project Structure
+```
+project/
+├── src/
+│   └── package_name/
+│       ├── __init__.py
+│       ├── main.py
+│       └── modules/
+├── tests/
+│   ├── __init__.py
+│   ├── test_main.py
+│   └── fixtures/
+├── docs/
+├── requirements.txt
+├── pyproject.toml
+├── setup.py (optional)
+└── README.md
+```
+
+### Dependencies Management
+- Use `pyproject.toml` for modern Python packaging
+- Pin dependency versions for reproducibility
+- Separate dev and production dependencies
+- Use virtual environments (venv/conda)
+- Regularly update dependencies and check for vulnerabilities
+
+### Type Hints & Static Analysis
+- Use `typing` module for complex types
+- Implement dataclasses for data structures
+- Use mypy for static type checking
+- Configure strict type checking in CI/CD
+
+### Testing Framework
+- Use pytest for unit and integration tests
+- Implement fixtures for test data
+- Aim for >80% code coverage
+- Write descriptive test names and docstrings
+- Use parameterized tests for similar scenarios
+
+### Logging & Monitoring
+- Use Python's logging module with appropriate levels
+- Implement structured logging (JSON format)
+- Add request IDs for tracing
+- Monitor key metrics and performance indicators
+
+### Security Best Practices
+- Validate all inputs and sanitize outputs
+- Use parameterized queries to prevent SQL injection
+- Implement proper authentication and authorization
+- Store secrets securely (environment variables, key vaults)
+- Regularly update dependencies for security patches
+
+### Performance Optimization
+- Profile code to identify bottlenecks
+- Use appropriate data structures and algorithms
+- Implement caching where beneficial
+- Optimize database queries and connections
+- Consider async/await for I/O operations

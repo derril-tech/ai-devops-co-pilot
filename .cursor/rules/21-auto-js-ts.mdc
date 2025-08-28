@@ -1,0 +1,79 @@
+# TypeScript/Node Build & Conventions
+
+## TypeScript Standards
+
+### Code Quality
+- Use TypeScript strict mode
+- Implement proper type definitions
+- Avoid `any` type except when necessary
+- Use ESLint and Prettier for code formatting
+- Follow Airbnb or Google style guide
+
+### Project Structure
+```
+project/
+├── src/
+│   ├── index.ts
+│   ├── types/
+│   ├── utils/
+│   ├── services/
+│   └── controllers/
+├── tests/
+│   ├── unit/
+│   ├── integration/
+│   └── e2e/
+├── dist/ (build output)
+├── package.json
+├── tsconfig.json
+├── .eslintrc.js
+└── README.md
+```
+
+### Dependencies & Package Management
+- Use npm or yarn for package management
+- Use `package.json` for dependency management
+- Implement proper versioning (semantic versioning)
+- Use package-lock.json or yarn.lock for reproducible builds
+- Separate dev and production dependencies
+
+### Build Configuration
+- Use TypeScript compiler (tsc) for compilation
+- Configure tsconfig.json with appropriate settings
+- Implement build scripts in package.json
+- Use webpack or rollup for bundling if needed
+- Implement source maps for debugging
+
+### Testing Framework
+- Use Jest or Mocha for unit testing
+- Implement test coverage reporting
+- Use Supertest for API testing
+- Implement end-to-end testing with Playwright or Cypress
+- Follow TDD/BDD practices
+
+### API Design
+- Use RESTful conventions
+- Implement proper HTTP status codes
+- Use JSON for data exchange
+- Implement request/response validation
+- Add comprehensive API documentation
+
+### Security & Performance
+- Implement input validation and sanitization
+- Use Helmet for security headers
+- Implement rate limiting
+- Use compression middleware
+- Optimize bundle size and loading times
+
+### Error Handling
+- Implement global error handling
+- Use custom error classes
+- Provide meaningful error messages
+- Implement proper logging
+- Handle async errors appropriately
+
+### Database Integration
+- Use ORMs like TypeORM or Prisma
+- Implement connection pooling
+- Use migrations for schema changes
+- Implement proper transaction handling
+- Add database indexes for performance

@@ -1,0 +1,48 @@
+# CrewAI Scaffolding & Agent/Task/Tool Contracts
+
+## CrewAI Foundation
+
+### Agent Roles & Responsibilities
+- **Senior Software Engineer** (You): Full-stack development, architecture, implementation
+- **Project Manager**: Requirements analysis, task breakdown, progress tracking
+- **QA Engineer**: Testing, validation, quality assurance
+- **DevOps Engineer**: Infrastructure, deployment, CI/CD
+- **Security Engineer**: Security reviews, compliance, vulnerability assessment
+
+### Agent Communication Protocol
+- Use structured JSON for agent-to-agent communication
+- Maintain shared context through persistent state files
+- Follow async patterns for long-running tasks
+- Implement proper error handling and recovery
+
+### Task Contracts
+- **Input**: Clear, structured requirements with acceptance criteria
+- **Output**: Deliverables with verification steps
+- **Dependencies**: Explicit task relationships and prerequisites
+- **Timeline**: Realistic estimates with buffer time
+
+### Tool Integration
+- **Code Generation**: Use appropriate frameworks and patterns
+- **Testing**: Automated test generation and execution
+- **Deployment**: Containerization and orchestration
+- **Monitoring**: Logging, metrics, and alerting
+
+## Implementation Standards
+
+### Code Quality
+- Follow language-specific best practices
+- Implement proper error handling
+- Use type safety where available
+- Maintain consistent code formatting
+
+### Documentation
+- Inline code documentation
+- API documentation
+- Architecture decision records
+- User guides and tutorials
+
+### Testing Strategy
+- Unit tests for core functionality
+- Integration tests for system interactions
+- End-to-end tests for user workflows
+- Performance and load testing
