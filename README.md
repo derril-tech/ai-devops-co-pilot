@@ -414,20 +414,12 @@ src/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-## 🆘 Support
-
-- **Documentation**: [docs.ai-devops-copilot.com](https://docs.ai-devops-copilot.com)
-- **Issues**: [GitHub Issues](https://github.com/your-org/ai-devops-copilot/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/ai-devops-copilot/discussions)
-- **Email**: support@ai-devops-copilot.com
 
 ---
 
 ## 🙏 Acknowledgments
 
-Built with ❤️ by the DevOps community. Special thanks to our contributors and the open-source ecosystem that makes this possible.
+Built with ❤️ by Derril Filemon. Special thanks to our contributors and the open-source ecosystem that makes this possible.
 
 **Ready to revolutionize your incident response?** 🚀
 
